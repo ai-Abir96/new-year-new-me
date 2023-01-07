@@ -50,7 +50,7 @@ main {
 
 .failure {
   display: flex;
-  margin: 130px 10px;
+  margin: 130px 30px;
   text-align: left;
   gap: 100px;
 }
@@ -70,7 +70,7 @@ main {
   font-size: 16px;
   color: #444343;
   padding: 24px 0 16px 0;
-  width: 416px;
+  width: 316px;
 }
 ul {
   list-style: none;
@@ -78,10 +78,38 @@ ul {
   margin: 0;
   padding: 0;
   line-height: 35px;
+  width: 400px;
 }
 ul li:before {
   content: "✓";
   color: #16d887;
   padding-right: 10px;
   font-weight: 600;
+}
+
+.plan {
+  margin: 130px 0px;
+  text-align: center;
+}
+.plan > .section-heading {
+  margin-left: 40%;
+}
+.my-plan {
+  padding-left: 20px;
+  display: flex;
+
+  margin-top: 50px;
+  justify-content: space-evenly;
+}
+.card-head {
+  font-weight: 700;
+  font-size: 25px;
+  color: #151414;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.card-content {
+  font-weight: 500;
+  font-size: 20px;
+  color: #737272;
 }
