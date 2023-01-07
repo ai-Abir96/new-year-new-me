@@ -4,13 +4,12 @@
 }
 
 /* header section */
-
+html {
+  width: 1600px;
+}
 header {
   background-image: url("../images/banner/banner3.png");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 1600px;
   height: 808px;
 }
 
@@ -46,6 +45,7 @@ header {
 
 main {
   margin: 0 230px;
+  width: 1600px;
 }
 
 .failure {
@@ -92,14 +92,15 @@ ul li:before {
   text-align: center;
 }
 .plan > .section-heading {
-  margin-left: 40%;
+  margin-left: 28%;
 }
 .my-plan {
-  padding-left: 20px;
+  padding-left: 0px;
   display: flex;
-
   margin-top: 50px;
-  justify-content: space-evenly;
+  gap: 150px;
+  width: 1140px;
+  height: 300px;
 }
 .card-head {
   font-weight: 700;
@@ -112,4 +113,76 @@ ul li:before {
   font-weight: 500;
   font-size: 20px;
   color: #737272;
+}
+
+footer {
+  display: flex;
+  background: #151414;
+  color: #f8f8f8;
+  padding: 130px 230px;
+  gap: 0px;
+}
+.left-footer {
+  width: 60%;
+}
+.right-footer {
+  width: 40%;
+}
+.left-foothead {
+  font-weight: 700;
+  font-size: 45px;
+}
+.left-footContent {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 20px;
+  width: 500px;
+}
+.footer-images {
+  margin-top: 20px;
+}
+.subscribe {
+  font-weight: 600;
+  font-size: 25px;
+}
+.right-footer > input[type="email"] {
+  padding: 18px 158px 21px 21px;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #f3f3f3;
+  background: #151414;
+}
+.btn-seconadary {
+  background: #005fac;
+  border-radius: 5px;
+  padding: 20px 26px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  border: none;
+}
+.img-grad {
+  background-image: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url("../images/watch.png");
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  text-align: left;
+  border-radius: 8px;
+  width: 1140px;
+  height: 300px;
+}
+.grad-head {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  width: 600px;
+  padding: 60px 617px 30px 60px;
+}
+.callnow {
+  padding-left: 60px;
 }
