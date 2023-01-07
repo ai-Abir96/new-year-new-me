@@ -3,6 +3,8 @@
   font-family: "Work Sans", sans-serif;
 }
 
+/* header section */
+
 header {
   background-image: url("../images/banner/banner3.png");
   background-repeat: no-repeat;
@@ -38,4 +40,48 @@ header {
   font-weight: 600;
   color: #005fac;
   border: none;
+}
+
+/* main section */
+
+main {
+  margin: 0 230px;
+}
+
+.failure {
+  display: flex;
+  margin: 130px 10px;
+  text-align: left;
+  gap: 100px;
+}
+
+.failure > .right-section {
+  margin: 270px 0px 0px 0px;
+  width: 40%;
+}
+.section-heading {
+  font-weight: 700;
+  font-size: 40px;
+  width: 288px;
+  color: #151414;
+  font-style: bold;
+}
+.section-content {
+  font-size: 16px;
+  color: #444343;
+  padding: 24px 0 16px 0;
+  width: 416px;
+}
+ul {
+  list-style: none;
+  color: #444343;
+  margin: 0;
+  padding: 0;
+  line-height: 35px;
+}
+ul li:before {
+  content: "✓";
+  color: #16d887;
+  padding-right: 10px;
+  font-weight: 600;
 }
